@@ -26,6 +26,20 @@ function Profile() {
         </h2>
         <h2>Chat</h2>
       </div>
+      <div className="profile__recent">
+        <h2>Recent brodcasta</h2>
+        <div className="profile__recentItems">
+          <RecentItem
+            url={"https://www.youtube.com/embed/goaygqmJRlE"}
+            title={"bald TV"}
+          />
+        </div>
+        <div className="profile__categories">
+          <h2>Jacek</h2>
+          <img src="./avatar.jpg" alt="" />
+          <h3>jacek</h3>
+        </div>
+      </div>
     </div>
   );
 }
