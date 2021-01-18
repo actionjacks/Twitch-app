@@ -4,5 +4,12 @@
   flex: 1;
   display: flex;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
+}
+.body__left {
+  width: 96%;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }

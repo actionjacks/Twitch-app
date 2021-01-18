@@ -1,5 +1,7 @@
 import React from "react";
 import "./Profile.css";
+import RecentItem from "./RecentItem";
+import Stream from "./Stream";
 
 function Profile() {
   return (
@@ -33,16 +35,21 @@ function Profile() {
             url={"https://www.youtube.com/embed/goaygqmJRlE"}
             title={"bald TV"}
           />
+          <RecentItem
+            url={"https://www.youtube.com/embed/c-5VXl8yPQA"}
+            title={"The Net Ninja"}
+          />
+          <RecentItem
+            url={"https://www.youtube.com/embed/Xm4BObh4MhI"}
+            title={"Ania Kubów"}
+          />
         </div>
         <div className="profile__categories">
-          <h2>Jacek</h2>
-          <img src="./avatar.jpg" alt="" />
-          <h3>jacek</h3>
+          <Stream />
         </div>
       </div>
     </div>
   );
 }
-// 1:59
 
 export default Profile;

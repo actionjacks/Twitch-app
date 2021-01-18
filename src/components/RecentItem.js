@@ -16,8 +16,8 @@ const RecentItem = ({ url, title }) => {
         <img src="./avatar.jpg" alt="" />
         <div className="item__detailsText">
           <h4>{title}</h4>
-          <p>jacek</p>
-          <p>kategoria jacek</p>
+          <p>JS</p>
+          <p>JS - Love</p>
         </div>
       </div>
     </div>
